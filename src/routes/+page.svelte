@@ -28,7 +28,8 @@
   import TextItalic from "carbon-icons-svelte/lib/TextItalic.svelte";
   import TextUnderline from "carbon-icons-svelte/lib/TextUnderline.svelte";
   import CategoryNew from "carbon-icons-svelte/lib/CategoryNew.svelte";
-  import Edit from "carbon-icons-svelte/lib/Edit.svelte";
+
+  import HeaderEditble from "../libs/components/HeaderEditble.svelte";
 
   let isSideNavOpen = false;
   let index: number = 1;
@@ -61,16 +62,7 @@
     <Grid>
       <Row>
         <Column>
-          <span>
-            <h1 class="inline">EEXX</h1>
-            <TooltipIcon
-              tooltipText="Top start"
-              direction="top"
-              align="start"
-              icon={Edit}
-              inlist
-            />
-          </span>
+          <HeaderEditble>x</HeaderEditble>
         </Column>
       </Row>
       <Row
