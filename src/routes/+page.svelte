@@ -112,7 +112,6 @@
   <Grid narrow={true} fullWidth class="bg-red-300" condensed>
     <Row>
       <Column lg={{ offset: 0 }} class="bg-blue-200">
-        <div style="padding-top: {m}px;">asd</div>
         <Button
           kind="danger-tertiary"
           iconDescription="Delete"
@@ -138,7 +137,7 @@
                   console.log(e);
                   m = e?.clientY;
                   offset = e?.offsetY;
-                }}>{m}</button
+                }}>{m} DDDDDDDDDDDD</button
               >
             </p>
           {/each}
